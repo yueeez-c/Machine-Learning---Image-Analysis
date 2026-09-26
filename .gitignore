@@ -1,0 +1,49 @@
+# macOS
+.DS_Store
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE/editor metadata
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Packaging/build artifacts
+build/
+dist/
+*.egg-info/
+
+# Generated ML experiment artifacts
+outputs/
+runs/
+checkpoints/
+logs/
+wandb/
+mlruns/
+tensorboard/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Preserved metadata from the former nested PS1 repository
+PS1/.git.ps1-backup/
